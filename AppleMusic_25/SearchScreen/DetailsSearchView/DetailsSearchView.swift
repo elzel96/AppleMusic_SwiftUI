@@ -1,8 +1,15 @@
-//
-//  File.swift
-//  AppleMusic_25
-//
-//  Created by Helena on 5.02.2024.
-//
+import SwiftUI
 
-import Foundation
+struct DetailsSearchView: View {
+    @State var title: String
+    
+    var body: some View {
+        ScrollView(showsIndicators: false) {
+            MainStationView()
+            Spacer().frame(height: 20)
+            SecondSectionView()
+        }
+        .navigationTitle(title)
+    }
+}
+
