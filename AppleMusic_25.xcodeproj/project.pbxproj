@@ -161,10 +161,10 @@
 			isa = PBXGroup;
 			children = (
 				79F82CAC2B70CECF00D2C0A3 /* GenreSearchModel.swift */,
-				79F82CAE2B70EC1800D2C0A3 /* MusicSearchModel.swift */,
 				79F82C9F2B70A6BE00D2C0A3 /* SearchView.swift */,
-				79F82CA72B70A95000D2C0A3 /* DetailsSearchView */,
+				79F82CAE2B70EC1800D2C0A3 /* MusicSearchModel.swift */,
 				79F82CA12B70A81300D2C0A3 /* ActiveSearchView.swift */,
+				79F82CA72B70A95000D2C0A3 /* DetailsSearchView */,
 			);
 			path = SearchScreen;
 			sourceTree = "<group>";
