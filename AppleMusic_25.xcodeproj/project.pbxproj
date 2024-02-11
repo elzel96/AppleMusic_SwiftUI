@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		796895282B77BEFA00F0734D /* FullPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796895272B77BEFA00F0734D /* FullPlayerView.swift */; };
+		7968952A2B78217E00F0734D /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796895292B78217E00F0734D /* AudioManager.swift */; };
+		7968952C2B78249F00F0734D /* Во мне.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7968952B2B78249F00F0734D /* Во мне.mp3 */; };
+		7968952E2B7848BC00F0734D /* Воля.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7968952D2B7848BC00F0734D /* Воля.mp3 */; };
+		796895302B7848D400F0734D /* Я свободен.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7968952F2B7848D400F0734D /* Я свободен.mp3 */; };
+		796895322B786B8F00F0734D /* YAMAKASI.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 796895312B786B8F00F0734D /* YAMAKASI.mp3 */; };
 		79F82C692B7035FF00D2C0A3 /* AppleMusic_25App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F82C682B7035FF00D2C0A3 /* AppleMusic_25App.swift */; };
 		79F82C6B2B7035FF00D2C0A3 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F82C6A2B7035FF00D2C0A3 /* TabBarView.swift */; };
 		79F82C6D2B70360000D2C0A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79F82C6C2B70360000D2C0A3 /* Assets.xcassets */; };
@@ -32,6 +37,11 @@
 
 /* Begin PBXFileReference section */
 		796895272B77BEFA00F0734D /* FullPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullPlayerView.swift; sourceTree = "<group>"; };
+		796895292B78217E00F0734D /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		7968952B2B78249F00F0734D /* Во мне.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Во мне.mp3"; sourceTree = "<group>"; };
+		7968952D2B7848BC00F0734D /* Воля.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Воля.mp3"; sourceTree = "<group>"; };
+		7968952F2B7848D400F0734D /* Я свободен.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Я свободен.mp3"; path = "Preview Content/Я свободен.mp3"; sourceTree = "<group>"; };
+		796895312B786B8F00F0734D /* YAMAKASI.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = YAMAKASI.mp3; sourceTree = "<group>"; };
 		79F82C652B7035FF00D2C0A3 /* AppleMusic_25.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMusic_25.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79F82C682B7035FF00D2C0A3 /* AppleMusic_25App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusic_25App.swift; sourceTree = "<group>"; };
 		79F82C6A2B7035FF00D2C0A3 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
@@ -92,6 +102,10 @@
 				79F82C7B2B7038A700D2C0A3 /* RadioScreen */,
 				79F82C8F2B703AE600D2C0A3 /* SearchScreen */,
 				79F82C6C2B70360000D2C0A3 /* Assets.xcassets */,
+				7968952B2B78249F00F0734D /* Во мне.mp3 */,
+				7968952D2B7848BC00F0734D /* Воля.mp3 */,
+				7968952F2B7848D400F0734D /* Я свободен.mp3 */,
+				796895312B786B8F00F0734D /* YAMAKASI.mp3 */,
 				79F82C6E2B70360000D2C0A3 /* Preview Content */,
 			);
 			path = AppleMusic_25;
@@ -126,6 +140,7 @@
 			children = (
 				79F82C7C2B7038FF00D2C0A3 /* MiniPlayerView.swift */,
 				796895272B77BEFA00F0734D /* FullPlayerView.swift */,
+				796895292B78217E00F0734D /* AudioManager.swift */,
 			);
 			path = Player;
 			sourceTree = "<group>";
@@ -240,8 +255,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7968952E2B7848BC00F0734D /* Воля.mp3 in Resources */,
+				7968952C2B78249F00F0734D /* Во мне.mp3 in Resources */,
 				79F82C702B70360000D2C0A3 /* Preview Assets.xcassets in Resources */,
 				79F82C6D2B70360000D2C0A3 /* Assets.xcassets in Resources */,
+				796895322B786B8F00F0734D /* YAMAKASI.mp3 in Resources */,
+				796895302B7848D400F0734D /* Я свободен.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +289,7 @@
 				79F82C862B70399200D2C0A3 /* ModelCell.swift in Sources */,
 				79F82CA22B70A81300D2C0A3 /* ActiveSearchView.swift in Sources */,
 				79F82CAB2B70A98500D2C0A3 /* SecondSection.swift in Sources */,
+				7968952A2B78217E00F0734D /* AudioManager.swift in Sources */,
 				79F82C692B7035FF00D2C0A3 /* AppleMusic_25App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,7 +347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -381,7 +401,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -407,6 +427,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,6 +457,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -26,6 +26,7 @@ struct MiniPlayerView: View {
             return "pause.fill"
         }
     }
+    @ObservedObject private var audioManager = AudioManager.shared
     
     var body: some View {
         HStack(spacing: 10) {
@@ -41,8 +42,10 @@ struct MiniPlayerView: View {
                 .foregroundColor(.black)
                 .frame(width: 130, alignment: .leading)
                 .padding(.leading, 10)
+            
             Button {
-                 audioModel.isPlaying.toggle()
+                audioModel.isPlaying.toggle()
+                audioManager.playPause()
             } label: {
                 Image(systemName: stopPlay)
                     .font(.system(size: 30))
@@ -50,10 +53,13 @@ struct MiniPlayerView: View {
                     .foregroundColor(.black)
             }
             Button {
+                audioModel.isPlaying.toggle()
+                audioManager.playPause()
                 audioModel.index += 1
-                if audioModel.index == audioModel.songs.count - 1 {
+                if audioModel.index == audioModel.songs.count {
                     audioModel.index = 0
                 }
+                audioManager.setupAudioPlayer(song)
             } label: {
                 Image(systemName: "forward.fill")
                     .font(.system(size: 30))
@@ -67,8 +73,14 @@ struct MiniPlayerView: View {
         .onTapGesture {
             isFullScreenMode.toggle()
         }
+        .onAppear {
+            audioManager.setupAudioPlayer(song)
+        }
+        .onChange(of: song, perform: { newValue in
+            audioManager.setupAudioPlayer(song)
+        })
         .sheet(isPresented: $isFullScreenMode) {
-            FullPlayerView().environmentObject(audioModel)
+            FullPlayerView().environmentObject(audioModel).environmentObject(audioManager)
         }
     }
 }
