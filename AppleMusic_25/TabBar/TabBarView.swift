@@ -1,7 +1,6 @@
 import SwiftUI
 
 struct TabBarView: View {
-    
     var body: some View {
         TabView {
             LibraryView()
@@ -25,7 +24,7 @@ struct TabBarView: View {
             UITabBar.appearance().backgroundColor = .systemGray6
         }
         .overlay(alignment: .bottom) {
-            PlayerView()
+            MiniPlayerView()
         }
     }
 }
