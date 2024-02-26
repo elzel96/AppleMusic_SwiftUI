@@ -26,7 +26,6 @@ struct MainStationView: View {
                             .frame(width: (UIScreen.main.bounds.width) - 40, height: 220)
                             .cornerRadius(6)
                     }
-                    .padding(.leading, 20)
                     .padding(.trailing, 20)
                 }
             }

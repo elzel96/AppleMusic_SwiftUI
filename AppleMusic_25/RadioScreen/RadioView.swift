@@ -11,6 +11,7 @@ struct RadioView: View {
                 StationView()
             }
             .navigationTitle("Радио")
+            .padding(.leading, 20)
         }
     }
 }

@@ -13,6 +13,7 @@
 		7968952E2B7848BC00F0734D /* Воля.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7968952D2B7848BC00F0734D /* Воля.mp3 */; };
 		796895302B7848D400F0734D /* Я свободен.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7968952F2B7848D400F0734D /* Я свободен.mp3 */; };
 		796895322B786B8F00F0734D /* YAMAKASI.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 796895312B786B8F00F0734D /* YAMAKASI.mp3 */; };
+		7968955E2B8D449000F0734D /* VerticalStationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7968955D2B8D449000F0734D /* VerticalStationView.swift */; };
 		79F82C692B7035FF00D2C0A3 /* AppleMusic_25App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F82C682B7035FF00D2C0A3 /* AppleMusic_25App.swift */; };
 		79F82C6B2B7035FF00D2C0A3 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F82C6A2B7035FF00D2C0A3 /* TabBarView.swift */; };
 		79F82C6D2B70360000D2C0A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79F82C6C2B70360000D2C0A3 /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 		7968952D2B7848BC00F0734D /* Воля.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Воля.mp3"; sourceTree = "<group>"; };
 		7968952F2B7848D400F0734D /* Я свободен.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Я свободен.mp3"; path = "Preview Content/Я свободен.mp3"; sourceTree = "<group>"; };
 		796895312B786B8F00F0734D /* YAMAKASI.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = YAMAKASI.mp3; sourceTree = "<group>"; };
+		7968955D2B8D449000F0734D /* VerticalStationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalStationView.swift; sourceTree = "<group>"; };
 		79F82C652B7035FF00D2C0A3 /* AppleMusic_25.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMusic_25.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79F82C682B7035FF00D2C0A3 /* AppleMusic_25App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusic_25App.swift; sourceTree = "<group>"; };
 		79F82C6A2B7035FF00D2C0A3 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 				79F82C8B2B703A1100D2C0A3 /* RadioView.swift */,
 				79F82C892B7039F300D2C0A3 /* MainStationView.swift */,
 				79F82C872B7039DB00D2C0A3 /* StationView.swift */,
+				7968955D2B8D449000F0734D /* VerticalStationView.swift */,
 			);
 			path = RadioScreen;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				796895282B77BEFA00F0734D /* FullPlayerView.swift in Sources */,
 				79F82C882B7039DB00D2C0A3 /* StationView.swift in Sources */,
 				79F82C8E2B703A3000D2C0A3 /* RadioModel.swift in Sources */,
+				7968955E2B8D449000F0734D /* VerticalStationView.swift in Sources */,
 				79F82C7D2B7038FF00D2C0A3 /* MiniPlayerView.swift in Sources */,
 				79F82CAF2B70EC1800D2C0A3 /* MusicSearchModel.swift in Sources */,
 				79F82C822B70395E00D2C0A3 /* ListView.swift in Sources */,
