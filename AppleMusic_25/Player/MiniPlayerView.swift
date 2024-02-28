@@ -53,7 +53,6 @@ struct MiniPlayerView: View {
                     .foregroundColor(.black)
             }
             Button {
-                audioModel.isPlaying.toggle()
                 audioManager.playPause()
                 audioModel.index += 1
                 if audioModel.index == audioModel.songs.count {
