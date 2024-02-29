@@ -14,6 +14,9 @@
 		796895302B7848D400F0734D /* Я свободен.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7968952F2B7848D400F0734D /* Я свободен.mp3 */; };
 		796895322B786B8F00F0734D /* YAMAKASI.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 796895312B786B8F00F0734D /* YAMAKASI.mp3 */; };
 		7968955E2B8D449000F0734D /* VerticalStationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7968955D2B8D449000F0734D /* VerticalStationView.swift */; };
+		796895612B8FED1E00F0734D /* UIKitSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796895602B8FED1E00F0734D /* UIKitSearchView.swift */; };
+		796895632B8FF01600F0734D /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796895622B8FF01600F0734D /* Cell.swift */; };
+		796895652B8FF3BF00F0734D /* CellHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796895642B8FF3BF00F0734D /* CellHeader.swift */; };
 		79F82C692B7035FF00D2C0A3 /* AppleMusic_25App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F82C682B7035FF00D2C0A3 /* AppleMusic_25App.swift */; };
 		79F82C6B2B7035FF00D2C0A3 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F82C6A2B7035FF00D2C0A3 /* TabBarView.swift */; };
 		79F82C6D2B70360000D2C0A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79F82C6C2B70360000D2C0A3 /* Assets.xcassets */; };
@@ -44,6 +47,9 @@
 		7968952F2B7848D400F0734D /* Я свободен.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Я свободен.mp3"; path = "Preview Content/Я свободен.mp3"; sourceTree = "<group>"; };
 		796895312B786B8F00F0734D /* YAMAKASI.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = YAMAKASI.mp3; sourceTree = "<group>"; };
 		7968955D2B8D449000F0734D /* VerticalStationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalStationView.swift; sourceTree = "<group>"; };
+		796895602B8FED1E00F0734D /* UIKitSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitSearchView.swift; sourceTree = "<group>"; };
+		796895622B8FF01600F0734D /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		796895642B8FF3BF00F0734D /* CellHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellHeader.swift; sourceTree = "<group>"; };
 		79F82C652B7035FF00D2C0A3 /* AppleMusic_25.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMusic_25.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79F82C682B7035FF00D2C0A3 /* AppleMusic_25App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMusic_25App.swift; sourceTree = "<group>"; };
 		79F82C6A2B7035FF00D2C0A3 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
@@ -78,6 +84,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7968955F2B8FEBD400F0734D /* UIKitSearchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				796895602B8FED1E00F0734D /* UIKitSearchView.swift */,
+				796895622B8FF01600F0734D /* Cell.swift */,
+				796895642B8FF3BF00F0734D /* CellHeader.swift */,
+			);
+			path = UIKitSearchScreen;
+			sourceTree = "<group>";
+		};
 		79F82C5C2B7035FF00D2C0A3 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +119,7 @@
 				79F82C7A2B70389600D2C0A3 /* MediaScreen */,
 				79F82C7B2B7038A700D2C0A3 /* RadioScreen */,
 				79F82C8F2B703AE600D2C0A3 /* SearchScreen */,
+				7968955F2B8FEBD400F0734D /* UIKitSearchScreen */,
 				79F82C6C2B70360000D2C0A3 /* Assets.xcassets */,
 				7968952B2B78249F00F0734D /* Во мне.mp3 */,
 				7968952D2B7848BC00F0734D /* Воля.mp3 */,
@@ -275,15 +292,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				79F82C7F2B70392600D2C0A3 /* LibraryView.swift in Sources */,
+				796895632B8FF01600F0734D /* Cell.swift in Sources */,
 				796895282B77BEFA00F0734D /* FullPlayerView.swift in Sources */,
 				79F82C882B7039DB00D2C0A3 /* StationView.swift in Sources */,
 				79F82C8E2B703A3000D2C0A3 /* RadioModel.swift in Sources */,
 				7968955E2B8D449000F0734D /* VerticalStationView.swift in Sources */,
 				79F82C7D2B7038FF00D2C0A3 /* MiniPlayerView.swift in Sources */,
 				79F82CAF2B70EC1800D2C0A3 /* MusicSearchModel.swift in Sources */,
+				796895612B8FED1E00F0734D /* UIKitSearchView.swift in Sources */,
 				79F82C822B70395E00D2C0A3 /* ListView.swift in Sources */,
 				79F82C8C2B703A1100D2C0A3 /* RadioView.swift in Sources */,
 				79F82CA92B70A97200D2C0A3 /* MainSection.swift in Sources */,
+				796895652B8FF3BF00F0734D /* CellHeader.swift in Sources */,
 				79F82CAD2B70CECF00D2C0A3 /* GenreSearchModel.swift in Sources */,
 				79F82C8A2B7039F300D2C0A3 /* MainStationView.swift in Sources */,
 				79F82C842B70397A00D2C0A3 /* ListModel.swift in Sources */,

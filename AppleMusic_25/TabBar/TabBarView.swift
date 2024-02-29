@@ -21,6 +21,12 @@ struct TabBarView: View {
                     Text("Поиск")
                 }
                 .padding(.bottom, 80)
+            NewSearchView()
+                .tabItem {
+                    Image(systemName: "magnifyingglass")
+                    Text("Поиск")
+                }
+                .padding(.bottom, 80)
         }
         .accentColor(.pink)
         .onAppear() {
